@@ -7,6 +7,7 @@ public class LCD {
         String fraction1 = input.nextLine();
         int numeratorOne = Integer.parseInt(fraction1.substring(0, fraction1.indexOf("/")));
         int denominatorOne = Integer.parseInt(fraction1.substring(fraction1.indexOf("/") + 1));
+
         System.out.println("Enter the second fraction's numerator and denominator: ");
         String fraction2 = input.nextLine();
         int numeratorTwo = Integer.parseInt(fraction2.substring(0, fraction2.indexOf("/")));
@@ -14,7 +15,6 @@ public class LCD {
 
         System.out.println("The least common denominator is: " + findLCD(numeratorOne, denominatorOne, numeratorTwo, denominatorTwo));
 
-        
     }
         // Recursive method to return greatest common divisor of two numbers
         public static int gcd(int a, int b) {
@@ -32,6 +32,4 @@ public class LCD {
         public static int findLCD(int numeratorOne,int denominatorOne,int numeratorTwo, int denominatorTwo) {
             return lcm(denominatorOne, denominatorTwo);// call to lcm method to find the least common denominator of two fractions
         }
-
-
 }
