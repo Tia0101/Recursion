@@ -1,0 +1,5 @@
+Enter the first fraction's numerator and denominator:
+1/18
+Enter the second fraction's numerator and denominator:
+1/42
+The least common denominator is: 126

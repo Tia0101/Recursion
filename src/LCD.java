@@ -1,3 +1,9 @@
+// Name: Tia Vanderyacht
+//Date: 05/21/2024
+// Class: CS 145 9:30am face to face
+// Assignment: Lab 6 recursion
+// Purpose: This program will prompt the user to enter two fractions and then calculate the least common denominator of the two fractions using recursion.
+
 import java.util.Scanner;
 public class LCD {
 
